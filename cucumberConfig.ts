@@ -17,7 +17,7 @@ Capabilities :[{
   "browserName": "chrome",}],
 
 // require feature files
-    specs: ['../features/CustomerLogin.feature'],
+    specs: ['../features/*.feature'],
    
     cucumberOpts: {
         //tags:"",
