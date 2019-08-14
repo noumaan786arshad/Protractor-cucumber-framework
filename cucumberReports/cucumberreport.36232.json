@@ -1,0 +1,95 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Login functionality",
+    "line": 1,
+    "id": "test-login-functionality",
+    "tags": [],
+    "uri": "features\\login.feature",
+    "elements": [
+      {
+        "id": "test-login-functionality;login-to-the-application",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login to the application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have navigated to the website",
+            "match": {
+              "location": "stepDefinitions\\loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter usename and password and email",
+            "match": {
+              "location": "stepDefinitions\\loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click \"Login\" button",
+            "match": {
+              "location": "stepDefinitions\\loginSteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be successfully logged in",
+            "match": {
+              "location": "stepDefinitions\\loginSteps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1340000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\beforeAfterHooks.ts:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I want to verify amny customers by logging in  with different users to verify transactions",
+    "line": 1,
+    "id": "i-want-to-verify-amny-customers-by-logging-in--with-different-users-to-verify-transactions",
+    "tags": [],
+    "uri": "features\\CustomerLogin.feature",
+    "elements": [
+      {
+        "id": "i-want-to-verify-amny-customers-by-logging-in--with-different-users-to-verify-transactions;verify-customers-can-login-and-deposit-money-into-their-accounts",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify customers can login and deposit money into their accounts",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I click on \"Customer Login\" button",
+            "match": {
+              "location": "stepDefinitions\\addCustomersSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 469000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I shouldnt see the login button initially untill I select the customer from dropdown list",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select the customer \"Ron Weasly\" from customer dropdown list",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "login button should be displayed",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user should see welcome message against his name \"Ron Weasly\" with transactions, withdraw and deposit options",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on \"Home\" button",
+            "match": {
+              "location": "stepDefinitions\\addCustomersSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\beforeAfterHooks.ts:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-want-to-verify-amny-customers-by-logging-in--with-different-users-to-verify-transactions;verify-customers-can-login-and-deposit-money-into-their-accounts",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify customers can login and deposit money into their accounts",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I click on \"Customer Login\" button",
+            "match": {
+              "location": "stepDefinitions\\addCustomersSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I shouldnt see the login button initially untill I select the customer from dropdown list",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select the customer \"Harry Potter\" from customer dropdown list",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "login button should be displayed",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user should see welcome message against his name \"Harry Potter\" with transactions, withdraw and deposit options",
+            "match": {
+              "location": "stepDefinitions\\customerLoginSteps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on \"Home\" button",
+            "match": {
+              "location": "stepDefinitions\\addCustomersSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\beforeAfterHooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

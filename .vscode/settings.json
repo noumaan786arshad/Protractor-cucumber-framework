@@ -1,0 +1,10 @@
+{
+    
+        "cucumberautocomplete.steps": [
+            "./stepDefinitions/*.ts",
+        ],
+        "cucumberautocomplete.syncfeatures": "Protractor_Cucumber_Framework/features/*feature",
+        "cucumberautocomplete.strictGherkinCompletion": true,
+        "files.autoSave": "afterDelay"
+    
+}
